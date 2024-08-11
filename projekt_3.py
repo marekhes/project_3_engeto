@@ -2,7 +2,7 @@
 projekt_3.py: třetí projekt do Engeto Online Python Akademie
 author: Marek Hes
 email: marekhes@proton.me
-discord: Petr Svetr#4490
+discord: marek_09805
 """
 
 import sys
