@@ -15,7 +15,7 @@ Ukázka Projektu:
 -
 - spuštění
 - průběh stahování: 
-  Downloading html website content.
-  Processing downloaded data. 
-  Data were successfully saved to vysledky.csv
+  - Downloading html website content.
+  - Processing downloaded data. 
+  - Data were successfully saved to vysledky.csv
 - ukázka výstupnu přiložena v souboru: vysledky.csv
