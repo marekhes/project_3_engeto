@@ -78,6 +78,8 @@ def process_okrsky_obce(table):
   """Některé obce jsou dále rozdělené na okrsky a místo tabulky s hlasováním mají tabulku s odkazama na okrsky. Po prokliknutí už máme data o hlasování."""
   obec_info = {}
   for okrsek_row in table.find_all('tr')[1].find_all('td'):  # Přeskočí řádek
+    if okrsek_row.find('a') is None:
+      continue
     okrsek_url = get_base_url(url) + okrsek_row.find('a')['href']
     soup = fetch_page(okrsek_url)
     okrsek_table = get_okrsek_table(soup)
